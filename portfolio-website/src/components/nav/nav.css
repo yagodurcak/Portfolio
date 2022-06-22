@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1.7rem;
+    width: max-content;
+    /* para que se quede en lugar agregas fixed */
+    position: fixed;
+    /* para que este en el medio */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.5rem;
+    z-index: 2;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px) ;
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    /* no se porque se hacen mas redondos */
+    display: flex;
+    /* le da el tama;o a los iconos */
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    /* mas alla que sea transparemte puede poscurecerse */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
