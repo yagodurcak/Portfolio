@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    /* height: max-content; */
     /* text-align: center; */
 }
 .frontend__container{
