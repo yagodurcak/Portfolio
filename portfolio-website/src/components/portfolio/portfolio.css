@@ -1,0 +1,64 @@
+.portfolio__conrtainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+    row-gap: 5rem   
+}
+
+.portfolio__card{
+    background-color: var(--color-bg-variant);
+    padding: 30px;
+    border: 1px solid var(--color-bg-variant);
+    border-radius: 40px;
+    transition: var(--transition);
+}
+.portfolio__card:hover{
+    background-color:transparent
+}
+.portfolio__card img{
+    border-radius: 40px;
+    text-align: center;
+    width: 100%;
+}
+.portfolio__card h3{
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.portfolio__btns{
+    margin-top: 2rem;
+    /* background-color: antiquewhite  ; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* MEDIAQUIERIES TABLET */
+  
+@media screen and (max-width: 1024px){
+
+    .portfolio__conrtainer{
+
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+    .portfolio__btns{
+ 
+        width: 100%;
+
+    
+    }
+    }
+/* MEDIAQUIERIES movil */
+  
+@media screen and (max-width: 600px){
+
+    .portfolio__conrtainer{
+
+        grid-template-columns: 1fr;
+       
+    }
+    }
