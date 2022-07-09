@@ -1,0 +1,98 @@
+.contact__container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3.5rem;
+}
+.cards__container{
+    display: grid;
+    gap: 2rem;
+    /* background-color: brown; */
+    justify-items: right;
+}
+
+.card__container{
+    background-color: var(--color-bg-variant);
+    border: 0.0625rem solid var(--color-bg-variant) ;
+    border-radius: 2.5rem;
+    padding: 1.25rem 2.5rem;
+    width: max-content;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    transition: var(--transition);
+}
+.card__container:hover{
+    background-color: transparent;
+    border: 0.0625rem solid var(--color-primary);
+}
+
+.card__icon{
+    font-size: 1.5625rem;
+    margin-bottom: 1rem;
+}
+.card__container h5{
+    font-size: 1.25rem;
+}
+.card__container small{
+    font-size: 0.9375rem;
+    color: var(--color-light);
+    margin-bottom: 1.5rem;
+}
+.card__container a{
+    font-size: 0.9375rem;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.form__container{
+    /* background-color: cornflowerblue; */
+    margin-left: 2.5rem;
+}
+.form__card{
+    /* background-color: antiquewhite; */
+    width: 70% ;
+    display: grid;
+    justify-content: left;
+    gap: 2rem;
+    color: white;
+}
+.form__card input{
+    width: 150%;
+    height: 20%;
+    padding: 2rem;
+    background-color: transparent;
+    border: 0.0625rem solid var(--color-primary);
+    color: white;
+    font-size: 0.9375rem;
+    border-radius: 1.25rem;
+   
+}
+.form__card textarea{
+    width: 150%;
+    padding: 2rem;
+    background-color: transparent;
+    border: 0.0625rem solid var(--color-primary);
+    color: white;
+    font-size: 0.9375rem;
+    border-radius: 1.25rem;
+}
+
+/* MEDIAQUERIES PARA TABLET */
+
+@media screen and (max-width: 1024px) {
+    .contact__container{
+        
+        grid-template-columns: 1fr;
+        justify-items: center;
+     
+    }
+}
+/* MEDIAQUERIES PARA movil */
+
+@media screen and (max-width: 1024px) {
+    .form__container{
+        /* background-color: cornflowerblue; */
+        margin-left: 0rem;
+
+    }
+}

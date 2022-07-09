@@ -41,8 +41,8 @@ function Testimonials() {
       <h2>Testimonials</h2>
       <Swiper 
           className="container testimonials__container"
-          pagination={true} modules={[Pagination]} 
-          spaceBetween={50}
+          pagination={{ clickable: true }} modules={[Pagination]} 
+          spaceBetween={50}  slidesPerView={1}
       >
         {tesimonials.map(({avatar, names, review}, index)=>{ 
         return(
