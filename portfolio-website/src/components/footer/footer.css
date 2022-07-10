@@ -1,0 +1,40 @@
+.footer__container{
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 100px 0px 150px;
+    color: black;
+}
+.navmenu__container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.enlaces{
+    color: black;
+    font-weight: 200;
+}
+
+.icons__container{
+margin-top: 3rem;
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin-bottom: 3rem;
+}
+
+.icon__container{
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    border: 15px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  
+
+}
+
+.egator{
+    font-weight: 100;
+}
