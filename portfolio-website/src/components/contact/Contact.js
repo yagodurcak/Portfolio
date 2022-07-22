@@ -1,6 +1,7 @@
 import "./contact.css"
 
 import {AiOutlineMail} from "react-icons/ai"
+import {BsWhatsapp} from "react-icons/bs"
 import React from 'react'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
@@ -28,23 +29,23 @@ function Contact() {
            
             <AiOutlineMail className="card__icon"/>
             <h5>Email</h5>
-            <small>support@gmail.com</small>
-            <a>Send a message</a>
+            <small>mauridurcak@gmail.com</small>
+            <a href="mailto:mauridurcak@gmail.com">Send a message</a>
           </div>
           <div className="card__container">
+           
+            <BsWhatsapp className="card__icon"/>
+            <h5>Whatsapp</h5>
+            <small>+54 9 358 - 510 - 8888</small>
+            <a>Send a message</a>
+          </div>
+          {/* <div className="card__container">
            
             <AiOutlineMail className="card__icon"/>
             <h5>Email</h5>
             <small>support@gmail.com</small>
             <a>Send a message</a>
-          </div>
-          <div className="card__container">
-           
-            <AiOutlineMail className="card__icon"/>
-            <h5>Email</h5>
-            <small>support@gmail.com</small>
-            <a>Send a message</a>
-          </div>
+          </div> */}
         </div>
         <div className="form__container">
           <form ref={form} className="form__card" onSubmit={sendEmail}>

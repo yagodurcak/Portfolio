@@ -16,21 +16,17 @@ import avatar4 from "./../../assets/avatar4.jpg"
 
 const tesimonials = [
   {avatar: avatar1,
-  names: "Marcos",
-  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo sit nesciunt repellat id? Minima reprehenderit doloribus, amet expedita temporibus harum?"
+  names: "Eduardo - Thinkpad",
+  review: "Mauricio is a very responsible and collaborative person with the team members. It was a pleasure working with him."
 },
   {avatar: avatar2,
-  names: "Marcos",
-  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo sit nesciunt repellat id? Minima reprehenderit doloribus, amet expedita temporibus harum?"
+  names: "Luis Perez",
+  review: "Mauricio is a person who not only helped with the programming of the web but also advised us on the best ways to carry out the different parts. This allowed cost and time savings."
 },
   {avatar: avatar3,
-  names: "Marcos",
-  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo sit nesciunt repellat id? Minima reprehenderit doloribus, amet expedita temporibus harum?"
-},
-  {avatar: avatar4,
-  names: "Marcos",
-  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo sit nesciunt repellat id? Minima reprehenderit doloribus, amet expedita temporibus harum?"
-},
+  names: "Francisco Garcia",
+  review: "Mauricio helped our company Somos-Fin to have a modern and practical design on our website. I respect the times and that is something that we value a lot when hiring programmers"
+}
 ]
 
 function Testimonials() {

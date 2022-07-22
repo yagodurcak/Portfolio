@@ -1,8 +1,7 @@
 import './header.css'
 
 import CAT from "./CAT"
-import ME from "../../assets/me.png"
-import React from 'react'
+import YO from "../../assets/yo.png"
 import Social from "./Social"
 
 function Header() {
@@ -15,7 +14,7 @@ function Header() {
         <h5 className='text-light'>Front-End Developer</h5>
         <CAT/>
              <Social/>
-        <div className='me'><img src={ME} alt="" /></div>
+        <div className='me'><img src={YO} alt="" /></div>
         
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div> 

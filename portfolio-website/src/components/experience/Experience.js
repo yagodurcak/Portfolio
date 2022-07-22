@@ -23,21 +23,21 @@ function Experience() {
                 <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
+                    <h4>CSS</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </div>
                 <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
+                    <h4>JAVASCRIPT</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </div>
                 <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
+                    <h4>REACTJS</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </div>
@@ -46,34 +46,34 @@ function Experience() {
           </div>
           <div className="frontend__container">
 
-            <h3 className="frontend__title">Backend Development</h3>
+            <h3 className="frontend__title">Frontend Development</h3>
             <div className="list__container">
             <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
+                    <h4>REACT NATIVE</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </div>
+                <div className="boxlist__container">
+                  <BsFillPatchCheckFill className="boxlist__icon"/>
+                  <div className="boxlist__txt">
+                    <h4>BOOTSTRAP</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </div>
                 <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
+                    <h4>MATERIALJS</h4>
                     <small className="text-light">Experienced</small>
                   </div>
                 </div>
                 <div className="boxlist__container">
                   <BsFillPatchCheckFill className="boxlist__icon"/>
                   <div className="boxlist__txt">
-                    <h4>HTLM</h4>
-                    <small className="text-light">Experienced</small>
-                  </div>
-                </div>
-                <div className="boxlist__container">
-                  <BsFillPatchCheckFill className="boxlist__icon"/>
-                  <div className="boxlist__txt">
-                    <h4>HTLM</h4>
-                    <small className="text-light">Experienced</small>
+                    <h4>ANGULAR</h4>
+                    <small className="text-light">INTERMEDIATE</small>
                   </div>
                 </div>
             </div>

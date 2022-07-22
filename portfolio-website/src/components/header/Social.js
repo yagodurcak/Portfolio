@@ -6,9 +6,8 @@ import React from 'react'
 function Social() {
   return (
     <div className="header__social">
-         <a href="https://linkedin.com" target="blank"><BsLinkedin/></a>
-      <a href="https://github.com" target="blank"><FaGithub/></a>
-      <a href="https://dribble.com" target="blank"><FaDribbble/></a>
+         <a href="https://www.linkedin.com/in/mauricio-durcak-9b35b251" target="blank"><BsLinkedin/></a>
+      <a href="https://github.com/yagodurcak" target="blank"><FaGithub/></a>
     </div>
   )
 }

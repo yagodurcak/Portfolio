@@ -1,7 +1,7 @@
 import "./about.css"
 
 import {FaAward} from "react-icons/fa"
-import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/ABOUT2.png"
 import React from 'react'
 
 function About() {
@@ -19,22 +19,22 @@ function About() {
             <article className="about__card">
               <FaAward className="about__card-icon"/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
             <article className="about__card">
               <FaAward className="about__card-icon"/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>CLients</h5>
+              <small> 50 + Worldwide</small>
             </article>
             <article className="about__card">
               <FaAward className="about__card-icon"/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Projects</h5>
+              <small> 30+ Completed</small>
             </article>
   
           </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione, ab aliquam velit repellat temporibus modi nulla autem excepturi fuga quibusdam cum, eius quo! Expedita aut quaerat voluptates eligendi cupiditate.</p>
-            <addEventListener className="btn btn-primary">Let´s Talk</addEventListener>
+            <p>There is no better way to learn than to practice... thanks to developing projects that are used in real life, one prepares for future work challenges. Then, when working with clients, different challenges are presented that affirm and increase the knowledge in the previously practiced tools.</p>
+            <a href="#contact" className="btn btn-primary">Let´s Talk</a>
           
          </div>
        </div> 
