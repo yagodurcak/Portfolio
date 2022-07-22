@@ -38,3 +38,20 @@ margin-bottom: 3rem;
 .egator{
     font-weight: 100;
 }
+
+/* MEDIAQUERIES  tablet*/
+
+@media screen and (max-width: 1024px) {
+
+    .navmenu__container{
+        display: none;
+    }
+}
+
+
+/* MEDIAQUERIES  movil*/
+
+
+@media screen and (max-width: 600px) {
+    
+}

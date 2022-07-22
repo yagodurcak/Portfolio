@@ -37,7 +37,7 @@ function Contact() {
             <BsWhatsapp className="card__icon"/>
             <h5>Whatsapp</h5>
             <small>+54 9 358 - 510 - 8888</small>
-            <a>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=5493585108888" target="_blank">Send a message</a>
           </div>
           {/* <div className="card__container">
            

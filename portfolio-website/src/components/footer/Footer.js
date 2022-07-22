@@ -1,6 +1,8 @@
 import "./footer.css"
 
-import {FaFacebookF} from "react-icons/fa"
+import {BsGithub} from "react-icons/bs"
+import {BsInstagram} from "react-icons/bs"
+import {BsLinkedin} from "react-icons/bs"
 import React from 'react'
 
 function Footer() {
@@ -10,19 +12,25 @@ function Footer() {
         <h1>MAURICIO DURCAK</h1>
      
           <div className='navmenu__container'>
-            <a href="" className="enlaces">Home</a>
-            <a href="" className="enlaces">About</a>
-            <a href="" className="enlaces">Experience</a>
-            <a href="" className="enlaces">Services</a>
-            <a href="" className="enlaces">Portfolio</a>
-            <a href="" className="enlaces">Testimonials</a>
+            <a href="#" className="enlaces">Home</a>
+            <a href="#about" className="enlaces">About</a>
+            <a href="#experience" className="enlaces">Experience</a>
+            <a href="#services" className="enlaces">Services</a>
+            <a href="#contact" className="enlaces">Portfolio</a>
+            <a href="#testimonials" className="enlaces">Testimonials</a>
           </div>
           <div className='icons__container'>
-            <FaFacebookF className="icon__container"/>
-            <FaFacebookF className="icon__container"/>
-            <FaFacebookF className="icon__container"/>
+            <a href="https://www.instagram.com/disenadorwebs/" target="blank">
+              <BsInstagram className="icon__container"/>
+            </a>
+            <a href="https://github.com/yagodurcak" target="blank">
+              <BsGithub className="icon__container"/>
+            </a>
+            <a href="https://www.linkedin.com/in/mauricio-durcak-9b35b251" target="blank">
+              <BsLinkedin className="icon__container" />
+            </a>
           </div>
-          <p className="egator">Lorem ipsum dolor sit amet consectetur.</p>
+          {/* <p className="egator">Lorem ipsum dolor sit amet consectetur.</p> */}
       </div>
     </section>
   )
