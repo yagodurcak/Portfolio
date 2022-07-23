@@ -65,11 +65,17 @@
   @media screen and (max-width: 600px){
 
     .experience__container{
-        gap: 1rem;
+        gap: 0.5rem;
     }
     .frontend__container{
-        width: 100%;
-        padding: 2rem 1rem;
+        width: 80%;
+        padding: 1.5rem 1.5rem;
+        font-size: 12px;
+    }
+
+    .boxlist__container{
+   
+        padding: 0.5rem;
     }
     }
   
