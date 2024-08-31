@@ -1,4 +1,4 @@
-import cve from "../../assets/cve.pdf"
+import cve from "../../assets/CV-2024.pdf"
 import React from 'react'
 
 function CAT() {
